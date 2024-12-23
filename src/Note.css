@@ -1,0 +1,240 @@
+.scrollimg{
+    display: flex;
+    overflow-x: auto;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.scrollimg::-webkit-scrollbar{
+    display: none;
+}
+.feedback-content{
+    background-color: #E2E2E2;
+}
+.feedback-content div{
+    background-color: #E2E2E2;
+}
+.feedback-content p{
+    color: black;
+}
+.feed{
+    margin-top: 7vh;
+    font-family: 'Lexend';
+}
+.n{
+    text-align: start;
+    width: 15vw;
+    height:15vh;
+    padding: 20px;
+    background-color: #E2E2E2;
+    color: rgba(113, 113, 113, 1);
+}
+.checked{
+    color:#FEE346;
+}
+.fa{
+    margin-top:2vw;
+    margin-bottom: 1vw;
+    background-color: #E2E2E2;
+}
+.star{
+    border-radius: 10px;
+    border: 3px solid #E2E2E2;
+    display: flex;
+    flex-direction: column;
+    background-color: #E2E2E2;
+    margin: 40px;
+    text-align: center;
+}
+.start1{
+    padding:20px;
+    display: flex;
+    background-color: #E2E2E2;
+}
+.start1 div{
+    background-color: #E2E2E2;
+}
+#feedback{
+    text-align: center;
+}
+#feedback h1{
+    margin-top: 7vh;
+    margin-bottom:2vh;
+    color:#FEE346;
+    font-size: 8vh;
+}
+#feedback p{
+    color:rgba(173, 173, 173, 1)
+}
+#feedbackpic{
+    text-align: start;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    background-color: #E2E2E2;
+}
+#feedbackpic div{
+    background-color: #E2E2E2;
+}
+#feedbackpic img{
+    border-radius: 1vw;
+    background-color: #E2E2E2;
+}
+#namehere{
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #E2E2E2;
+    justify-content: start;
+    align-items: start;
+}
+#namehere h2{
+    color:black;
+    background-color: #E2E2E2;
+    font-size: 4vh;
+}
+#namehere h5{
+    font-size: 1.5vh;
+    color:black;
+    background-color: #E2E2E2;
+}
+.feedbacksection{
+    background-color: #E2E2E2;;
+}
+#post{
+    width: 10vw;
+    height: 7vh;
+    font-size: 0.75rem;
+    border-radius: 10px;
+    border: 2px solid #E2E2E2;
+    background-color: rgba(34, 17, 108, 1);
+    font-family: 'Lexend';
+    cursor: pointer;
+    transition: 300ms;
+    color: #FEE346;
+}
+#post:hover{
+    background-color: #FEE346;
+    color: rgba(34, 17, 108, 1);
+}
+#postbutton{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend';
+}
+@media(max-width:1300px){
+    .n{
+        width: 17vw;
+        height: 8vh;
+    }
+    #post{
+        width: 15vw;
+        margin: 1vh;
+    }
+}
+@media(max-width:1050px){
+    .n{
+        width: 21vw;
+        height: 8vh;
+    }
+    #post{
+        width: 17vw;
+        margin: 1vh;
+    }
+}
+@media(max-width:900px){
+    .n{
+        width: 23vw;
+        height: 8vh;
+    }
+}
+@media(max-width:800px){
+    .n{
+        width: 25vw;
+        height:8vh;
+    }
+    #feedbackpic img{
+        height: 7vh;
+        width: 7vh;
+    }
+}
+@media(max-width:740px){
+    .n{
+        width: 30vw;
+        height: 10vh;
+    }
+    #post{
+        width: 19vw;
+        margin: 1vh;
+    }
+}
+@media(max-width:650px){
+    .n{
+        width: 32vw;
+        height: 14vh;
+    }
+    #post{
+        width: 25vw;
+        margin: 1vh;
+    }
+    #feedbackpic img{
+        height: 7vh;
+        width: 7vh;
+    }
+}
+@media(max-width:530px){
+    .n{
+        width: 40vw;
+        height: 10vh;
+    }
+    #feedbackpic img{
+        height: 6vh;
+        width: 6vh;
+    }
+    #post{
+        width: 27vw;
+        margin: 1vh;
+    }
+}
+@media(max-width:470px){
+    .n{
+        width: 45vw;
+        height: 15vh;
+    }
+    #post{
+        width: 30vw;
+        margin: 1vh;
+    }
+}
+@media(max-width:380px){
+    .n{
+        width: 50vw;
+        height: 20vh;
+    }
+    #namehere h2{
+        color:black;
+        background-color: #E2E2E2;
+        font-size: 2vh;
+    }
+    #feedbackpic img{
+        height: 5vh;
+        width: 5vh;
+    }
+    #post{
+        width: 35vw;
+        margin: 1vh;
+    }
+}
+@media(max-width:335px){
+    #post{
+        width: 37vw;;
+    }
+}
+@media(max-width:300px){
+    .n{
+        width: 50vw;
+        height: 20vh;
+    }
+    #post{
+        width: 45vw;
+        margin: 1vh;
+    }
+}

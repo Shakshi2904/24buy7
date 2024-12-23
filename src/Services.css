@@ -1,0 +1,78 @@
+.services{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vh;
+    justify-content: space-between;
+}
+.services-img-img{
+    display: flex;
+}
+.services-img-img img{
+    width: 40%;
+}
+.services-img-content h1{
+    margin-top: 5vh;
+    color: #E2E2E2;
+    font-size: 3.5vh;
+    text-align: center;
+}
+.services-content1{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 5vh;
+    margin-bottom: 5vh;
+    width:100%;
+}
+.services-content1 div{
+    flex: 1 1 calc(45% - 20px);
+    max-width: calc(45% - 20px); 
+    border-radius: 1vw;
+    background-color: #E2E2E2;
+    text-align: center;
+    align-content: center;
+    height: 30vh;
+    width: 40vh;
+}
+.services-content1 div h1{
+    background-color: #E2E2E2;
+    color:#1E2740;
+    font-size: 4vh;
+    font-weight: 600;
+}
+.services-content2{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 5vh;
+    width:100%;
+}
+.services-content2 div{
+    flex: 1 1 calc(45% - 20px);
+    max-width: calc(45% - 20px); 
+    border-radius: 1vw;
+    background-color: #E2E2E2;
+    text-align: center;
+    align-content: center;
+    height: 30vh;
+    width: 40vh;
+}
+.services-content2 div h1{
+    background-color: #E2E2E2;
+    color:#1E2740;
+    font-size: 4vh;
+    font-weight: 600;
+}
+@media (max-width: 780px) {
+    .services{
+        flex-direction: column;
+    }
+    .services-img-content h1{
+        margin-bottom: 10vh;
+    }
+    .services-content1 div,
+    .services-content2 div {
+        flex: 1 1 100%; /* Make each div take up 100% width on small screens */
+        max-width: 50%; /* Add margin at the bottom to space them out */
+    }
+}

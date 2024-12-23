@@ -1,0 +1,46 @@
+.achieve{
+    color: #FEE346;
+    text-align: center;
+}
+.achieve h1{
+    font-size: 7vh;
+}
+.achieve h6{
+    margin: 2vh;
+    color: #E2E2E2;
+    font-weight: 200;
+    font-size: 1.75vh;
+    margin-bottom: 10vh;
+}
+.achieve-content h1{
+    background-color: #E2E2E2;
+    font-weight: 900;
+    font-size: 5vh;
+}
+.achieve-content h5{
+    font-weight: 300;
+    font-size: 2vh;
+    background-color: #E2E2E2;
+}
+.achieve-content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px;
+}
+.achieve-content div {
+    flex: 1 1 calc(20% - 20px);
+    max-width: calc(20% - 20px);
+    background-color: #E2E2E2;
+    color: #1E2740;
+    text-align: center;
+    border-radius: 1vw;
+    height: 25vh;
+    align-content: center;
+}
+@media (max-width: 780px) {
+    .achieve-content div {
+        flex: 1 1 100%; 
+        max-width: 50%;
+    }
+}

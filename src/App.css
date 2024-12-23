@@ -1,0 +1,18 @@
+/* Global styles applied to everything by default */
+* {
+    margin:0px;
+    padding: 0px;
+    background-color: #1E2740;
+    font-family: 'Lexend';
+}
+
+/* Specific styles for all content except Footer */
+.all * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Specific styles for Footer */
+.footall * {
+    margin: 0px;
+}

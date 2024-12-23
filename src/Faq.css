@@ -1,0 +1,67 @@
+.faqpage{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    font-family: 'Lexend';
+}
+
+.faqpage .para{
+    margin-bottom: 5vh;
+}
+.faqpage .para p{
+    text-align: center;
+    font-size: 0.7rem;
+    color:#E2E2E2;
+    font-weight: 200;
+    margin-top: 5vh;
+}
+.faqpage .eachFaq{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.faqpage .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .upperContent{
+    width: 80%;
+    text-align: center;
+}
+.content .lowerContent{
+    width: 80%;
+    text-align: center;
+}
+.content .upperContent p{
+    margin-top: 2vh;
+    color:white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.content .lowerContent p{
+    color:#E2E2E2;
+    font-size: 0.7rem;
+    margin-bottom: 5vh;
+    font-weight: 200;
+}
+#faqh{
+    color:#FEE346;
+    font-size: 8vh;
+    margin-bottom: 0px;
+}
+#introbutton{
+    margin-top:5vh;
+}
+@media(max-width:540px){
+    #faqbutton{
+        margin-top: 5vh;
+    }
+}

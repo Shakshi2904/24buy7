@@ -1,0 +1,37 @@
+.offer{
+    margin-bottom: 10vh;
+}
+.offer-heading{
+    color: #FEE346;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.offer-heading h1{
+    font-size: 8vh;
+}
+.offer-content{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px;
+}
+.offer-content div{
+    flex: 1 1 calc(30% - 20px);
+    max-width: calc(30% - 20px); 
+    background-color: #E2E2E2;
+    text-align: center;
+    border-radius: 1vw;
+    height: 30vh;
+    align-content: center;
+}
+.offer-content div h1{
+    font-size: 3.5vh;
+    color:#1E2740;
+    background-color: #E2E2E2;
+}
+@media (max-width: 780px) {
+    .offer-content div {
+        flex: 1 1 100%; 
+        max-width: 50%;
+    }
+}

@@ -1,0 +1,62 @@
+.contact {
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.ourServicePage {
+      text-align: center;
+      margin-bottom: 20px;
+}
+.ourServicePage h1 {
+      font-size: 8vh;
+      color:#FEE346;
+      margin: 0;
+}
+.form {
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+      border-radius: 8px;
+}
+.firstfield {
+      display: flex;
+      margin-bottom: 15px;
+}
+.Fname, .Lname, .restfield input, .textfield textarea {
+      width: 97%;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 1rem;
+      box-sizing: border-box;
+      border: #1E2740;
+      background-color: #E2E2E2;
+}
+.Fname, .Lname {
+      flex: 1;
+}
+.restfield {
+      margin-bottom: 15px;
+}
+.textfield {
+      margin-bottom: 20px;
+}
+.textfield textarea {
+      resize: none;
+}
+.brandbybutton {
+      text-align: center;
+}
+@media (max-width: 768px) {
+      .firstfield {
+        flex-direction: column;
+  }
+  .Fname, .Lname {
+        width: 97%;
+  }
+  .Fname {
+    width: 97%;
+    margin-bottom: 15px;
+}
+}
+  

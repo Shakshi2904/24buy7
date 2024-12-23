@@ -1,0 +1,33 @@
+.about{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+    align-items: center;
+}
+.about-content{
+    width: 35%;
+}
+.about-content h1{
+    color: #FEE346;
+    font-size: 7vh;
+}
+.about-content h5{
+    margin-top: 2vh;
+    font-weight: 200;
+    font-size: 1.75vh;
+    color: #E2E2E2;
+    margin-bottom: 5vh;
+}
+.about-pic{
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 50%;
+}
+.about-pic div{
+    background-color: #E2E2E2;
+    width: 100%; 
+    height: 60vh;
+    border-radius: 1vw;
+}
