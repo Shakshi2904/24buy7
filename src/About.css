@@ -31,3 +31,16 @@
     height: 60vh;
     border-radius: 1vw;
 }
+@media(max-width:780px){
+    .about{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-content{
+        width: 60%;
+    }
+    .about-pic{
+        width: 70%;
+        margin-top: 5vh;
+    }
+}
