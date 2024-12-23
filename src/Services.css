@@ -72,8 +72,8 @@
     }
     .services-content1 div,
     .services-content2 div {
-        flex: 1 1 100%; /* Make each div take up 100% width on small screens */
-        max-width: 50%; /* Add margin at the bottom to space them out */
+        flex: 1 1 100%; 
+        max-width: 50%; 
     }
     .services-img-img{
         display: flex;
