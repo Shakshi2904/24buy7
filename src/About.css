@@ -8,6 +8,9 @@
 .about-content{
     width: 35%;
 }
+.about-content button{
+    margin-bottom: 5vh;
+}
 .about-content h1{
     color: #FEE346;
     font-size: 7vh;

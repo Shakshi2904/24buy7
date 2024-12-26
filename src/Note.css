@@ -15,6 +15,7 @@
 }
 .feedback-content p{
     color: black;
+    height: auto;
 }
 .feed{
     margin-top: 7vh;
@@ -24,7 +25,8 @@
     text-align: start;
     width: 15vw;
     height:15vh;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     background-color: #E2E2E2;
     color: rgba(113, 113, 113, 1);
 }
@@ -32,8 +34,6 @@
     color:#FEE346;
 }
 .fa{
-    margin-top:2vw;
-    margin-bottom: 1vw;
     background-color: #E2E2E2;
 }
 .star{
@@ -46,7 +46,6 @@
     text-align: center;
 }
 .start1{
-    padding:20px;
     display: flex;
     background-color: #E2E2E2;
 }
@@ -67,7 +66,6 @@
 }
 #feedbackpic{
     text-align: start;
-    margin-left: 2vh;
     margin-top: 2vh;
     background-color: #E2E2E2;
 }
@@ -79,7 +77,6 @@
     background-color: #E2E2E2;
 }
 #namehere{
-    margin-left: 1vw;
     display: flex;
     flex-direction: column;
     background-color: #E2E2E2;
@@ -98,22 +95,6 @@
 }
 .feedbacksection{
     background-color: #E2E2E2;;
-}
-#post{
-    width: 10vw;
-    height: 7vh;
-    font-size: 0.75rem;
-    border-radius: 10px;
-    border: 2px solid #E2E2E2;
-    background-color: rgba(34, 17, 108, 1);
-    font-family: 'Lexend';
-    cursor: pointer;
-    transition: 300ms;
-    color: #FEE346;
-}
-#post:hover{
-    background-color: #FEE346;
-    color: rgba(34, 17, 108, 1);
 }
 #postbutton{
     display: flex;
@@ -186,8 +167,8 @@
         height: 10vh;
     }
     #feedbackpic img{
-        height: 6vh;
-        width: 6vh;
+        height:8vh;
+        width: 8vh;
     }
     #post{
         width: 27vw;
@@ -215,8 +196,8 @@
         font-size: 2vh;
     }
     #feedbackpic img{
-        height: 5vh;
-        width: 5vh;
+        height: 8vh;
+        width: 8vh;
     }
     #post{
         width: 35vw;
