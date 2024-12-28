@@ -48,9 +48,8 @@
 .start1{
     display: flex;
     background-color: #E2E2E2;
-}
-.start1 div{
-    background-color: #E2E2E2;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
 }
 #feedback{
     text-align: center;
@@ -106,19 +105,11 @@
         width: 17vw;
         height: 8vh;
     }
-    #post{
-        width: 15vw;
-        margin: 1vh;
-    }
 }
 @media(max-width:1050px){
     .n{
         width: 21vw;
         height: 8vh;
-    }
-    #post{
-        width: 17vw;
-        margin: 1vh;
     }
 }
 @media(max-width:900px){
@@ -136,25 +127,20 @@
         height: 7vh;
         width: 7vh;
     }
+    #feedback h1{
+        font-size: 7vh;
+    }
 }
 @media(max-width:740px){
     .n{
         width: 30vw;
         height: 10vh;
     }
-    #post{
-        width: 19vw;
-        margin: 1vh;
-    }
 }
 @media(max-width:650px){
     .n{
         width: 32vw;
         height: 14vh;
-    }
-    #post{
-        width: 25vw;
-        margin: 1vh;
     }
     #feedbackpic img{
         height: 7vh;
@@ -165,14 +151,20 @@
     .n{
         width: 40vw;
         height: 10vh;
+        font-size: 2vh;
     }
     #feedbackpic img{
         height:8vh;
         width: 8vh;
     }
-    #post{
-        width: 27vw;
-        margin: 1vh;
+    #feedback h1{
+        font-size: 6vh;
+    }
+    #namehere h2{
+        font-size: 2.5vh;
+    }
+    #namehere h5{
+        font-size: 1.5vh;
     }
 }
 @media(max-width:470px){
@@ -180,33 +172,15 @@
         width: 45vw;
         height: 15vh;
     }
-    #post{
-        width: 30vw;
-        margin: 1vh;
-    }
 }
 @media(max-width:380px){
     .n{
         width: 50vw;
         height: 20vh;
     }
-    #namehere h2{
-        color:black;
-        background-color: #E2E2E2;
-        font-size: 2vh;
-    }
     #feedbackpic img{
         height: 8vh;
         width: 8vh;
-    }
-    #post{
-        width: 35vw;
-        margin: 1vh;
-    }
-}
-@media(max-width:335px){
-    #post{
-        width: 37vw;;
     }
 }
 @media(max-width:300px){

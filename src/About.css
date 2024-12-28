@@ -14,6 +14,7 @@
 .about-content h1{
     color: #FEE346;
     font-size: 7vh;
+    margin-bottom: 5vh;
 }
 .about-content h5{
     margin-top: 2vh;
@@ -34,16 +35,27 @@
     height: 60vh;
     border-radius: 1vw;
 }
-@media(max-width:780px){
+@media(max-width:850px){
     .about{
         flex-direction: column;
         text-align: center;
     }
     .about-content{
-        width: 60%;
+        width: 80%;
     }
     .about-pic{
         width: 70%;
         margin-top: 5vh;
+    }
+}
+@media(max-width:500px){
+    .about-content h1{
+        font-size: 6vh;
+    }
+    .about-content h5{
+        font-size: 1.5vh;
+    }
+    .about-content{
+        width: 90%;
     }
 }

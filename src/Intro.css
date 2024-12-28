@@ -55,7 +55,7 @@
     border-radius: 1vw;
     width: 15vh;
 }
-@media(max-width:780px){
+@media(max-width:850px){
     .intro{
         flex-direction: column-reverse;
         text-align: center;
@@ -74,9 +74,21 @@
     .intro-img{
         justify-content: center;
     }
+    .intro-content h1{
+        font-size: 7vh;
+    }
 }
 @media(max-width:400px){
     .intro-button{
         flex-direction: column;
+    }
+}
+@media (max-width: 500px) {
+    .intro-content h1{
+        font-size: 6vh;
+    }
+    #intro-img{
+        height:50vh;
+        width: 40vh;
     }
 }

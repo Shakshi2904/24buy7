@@ -63,7 +63,7 @@
     font-size: 4vh;
     font-weight: 600;
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .services{
         flex-direction: column;
     }
@@ -86,5 +86,17 @@
 @media(max-width:450px){
     .services-img-img img{
         width: 100%;
+    }
+    .services-content1 div h1{
+        font-size: 3vh;
+    }
+    .services-content1 div{
+        height: 25vh;
+    }
+    .services-content2 div h1{
+        font-size: 3vh;
+    }
+    .services-content2 div{
+        height: 25vh;
     }
 }

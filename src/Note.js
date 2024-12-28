@@ -5,14 +5,12 @@ function Note({ content }){
         <div className="feedbacksection">
         <div id="feedbackpic">
             <div><img src='feedback.png' alt='not available' height={'50vh'} width={'50vw'}/></div>
-            <div className="start1"><div>
-            
+            <div className="start1">
             <span className="fa fa-star checked"></span>
           <span className="fa fa-star checked"></span>
           <span className="fa fa-star checked"></span>
           <span className="fa fa-star checked"></span>
           <span className="fa fa-star checked"></span>
-            </div>
             </div>
             <div id="namehere">
             <h2>Name here</h2>

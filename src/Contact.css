@@ -47,7 +47,7 @@
 .brandbybutton {
       text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
       .firstfield {
         flex-direction: column;
   }
@@ -58,5 +58,12 @@
     width: 97%;
     margin-bottom: 15px;
 }
+.ourServicePage h1 {
+      font-size: 7vh;
 }
-  
+}
+@media(max-width:500px){
+      .ourServicePage h1 {
+            font-size: 6vh;
+      }
+}

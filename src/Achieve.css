@@ -38,9 +38,17 @@
     height: 25vh;
     align-content: center;
 }
-@media (max-width: 780px) {
+@media (max-width: 850px) {
     .achieve-content div {
         flex: 1 1 100%; 
         max-width: 50%;
+    }
+    .achieve h1{
+        font-size: 7vh;
+    }
+}
+@media (max-width: 500px) {
+    .achieve h1{
+        font-size: 5vh;
     }
 }

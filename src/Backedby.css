@@ -59,9 +59,17 @@
         margin-bottom: 0vh;
     }
 }
-@media (max-width: 780px) {
+@media (max-width: 850px) {
     .backedimages img {
         flex: 1 1 100%; 
         max-width: 50%;
+    }
+    #bh{
+        font-size: 7vh;
+    }
+}
+@media (max-width: 500px) {
+    #bh{
+        font-size: 6vh;
     }
 }
