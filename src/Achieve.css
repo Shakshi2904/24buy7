@@ -51,4 +51,7 @@
     .achieve h1{
         font-size: 5vh;
     }
+    .achieve-content div {
+        height: 20vh;
+    }
 }

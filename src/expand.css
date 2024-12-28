@@ -1,0 +1,41 @@
+.title{
+    text-align: center;
+    margin: 50px;
+}
+.title h1{
+    color: #FEE346;
+    font-size: 8vh;
+    margin: 30px;
+}
+.title p{
+    color: rgb(219, 219, 219);
+    font-weight: 200;
+}
+.cell1{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cell1 div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(219, 219, 219);
+    color: #1E2740;
+    font-weight: 900;
+}
+@media(max-width:850px){
+    .title h1{
+        font-size: 7vh;
+    }
+}
+@media(max-width:500px){
+    .title h1{
+        font-size: 6vh;
+    }
+}

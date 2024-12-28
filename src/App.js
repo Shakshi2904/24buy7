@@ -11,6 +11,8 @@ import Contact from "./Contact.js";
 import Backedby from "./Backedby.js";
 import Feeback from "./Feedback.js";
 import Franchise from "./Franchise.js";
+import Brandpartner from "./Brandparner.js";
+import Expand from "./Expand.js";
 import './App.css';
 function App(){
   return (
@@ -23,6 +25,8 @@ function App(){
       <Offer/>
       <Franchise/>
       <Services/>
+      <Brandpartner/>
+      <Expand/>
       <Feeback/>
       <Faq/>
       <Backedby/>

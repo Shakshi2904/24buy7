@@ -1,0 +1,35 @@
+.main-section{
+    margin: 100px;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-section .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-section .left h1{
+    padding: 0 8vw;
+    text-align: center;
+    color: #FEE346;
+    font-size: 3vw;
+}
+.main-section .right{
+    background-color: rgb(232, 232, 232);
+    padding: 50px;
+    border-radius: 50px 0px 0px 50px;
+    width: 900px;
+}
+.main-section .right img{
+    background: transparent;
+    padding: 30px 50px;
+    height: 100px;
+    width: 100px;
+}
+.main-section .right div{
+    background-color: rgb(232, 232, 232);
+
+}
